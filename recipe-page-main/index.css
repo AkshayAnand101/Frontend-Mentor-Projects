@@ -1,0 +1,104 @@
+body{
+  background-color: hsl(30, 54%, 90%);
+} 
+
+
+.image{
+  margin: 2rem;
+  margin-bottom: 0.1rem;
+  margin-top: 0.1rem;
+    height: 15rem;    
+    width: 30rem;
+    border-radius: 1rem;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30rem;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 auto;
+  /* background-color: hsl(0, 0%, 100%); */
+  /* background-color: hsl(30, 54%, 90%); */
+}
+.container{
+  background-color: hsl(26, 23%, 94%);
+  padding: 1.5rem;
+  border-radius: 1rem;
+}
+
+.prep{
+  background-color: hsl(330, 64%, 95%);
+  width: 28rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  padding-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  float: left;  
+}
+.prep h3{
+  color:  hsl(332, 51%, 32%);
+}
+.ingredients{
+  color:hsl(14, 45%, 36%);
+  color:  hsl(24, 5%, 18%);
+  padding-bottom: 1rem;
+  border-bottom: 2px solid hsl(34, 28%, 79%);
+}
+
+
+.instruct{
+  /* color: hsl(14, 45%, 36%); */
+  color:  hsl(24, 5%, 18%);
+  border-bottom: 2px solid hsl(34, 28%, 79%);
+
+}
+.olist{
+  padding: 1rem;
+
+
+}
+
+.list{
+  padding-left: 1rem;
+}
+.list::marker{
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.ul1{
+  border-bottom: 1px solid hsl(34, 28%, 79%);
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  
+  padding-right: 10rem;
+
+}
+.ul2{
+  display: flex;
+  justify-content: space-between;  
+  padding-right: 10rem;
+  
+}
+
+h1{
+  color:hsl(24, 5%, 18%);
+  font-family: "Young Serif", system-ui;
+
+}
+
+
+.h21{
+  font-family: "Young Serif", system-ui;
+  color: hsl(14, 45%, 36%);
+  /* font-family: "Arvo", serif; */
+
+}
