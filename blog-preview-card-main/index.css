@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+
+} 
+body{
+    background-color:hsl(47, 88%, 63%) ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 20rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 0px 0px black;
+    background-color: white;
+}
+.inside{
+    display: flex;
+    flex-direction: column;    
+}
+.img1{
+    border-radius: 1rem;
+    width: 20rem;
+}
+.learning{
+    margin-top: 1rem;
+    background-color:hsl(47, 88%, 63%);
+    padding: 0.2rem  0.5rem 0.2rem 0.5rem;
+    border-radius: 0.2rem;
+    width: fit-content;
+}
+.para1{
+    font-size: 16px;
+}
+.h3{
+    margin: 0;
+}
+.h3:hover{
+    transition-delay: 200ms;
+    color: hsl(47, 88%, 63%);
+}
+.para2{
+    font-size: 16px;
+    color: hsl(0, 0%, 42%);
+}
+.avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 3rem;
+    
+}
+.img2{
+    width: 3rem;
+}
+.avatar-text{
+    padding-left: 1rem;
+    margin-top:1.15rem;
+}
+.attribution{
+    margin-top: 1rem;
+}
